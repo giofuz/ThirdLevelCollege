@@ -17,7 +17,7 @@ public class Model {
         }
         return instance;
     }
-  
+ 
     private List<Student> students;
     StudentTableGateway gateway;
     

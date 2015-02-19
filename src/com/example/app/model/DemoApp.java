@@ -10,7 +10,7 @@ public class DemoApp {
         Scanner keyboard = new Scanner(System.in);
         Model model = Model.getInstance();
         int choice;
-
+        // This is github practice
         //'do' executes the junk of code below until it hits the while loop when 5 is pressed
         do {
             System.out.println("1.View Students");
@@ -19,11 +19,11 @@ public class DemoApp {
             System.out.println("4.Edit Students");
             System.out.println("5.Exit");
             System.out.println("");
-
+            
             System.out.print("Please choose an option: ");
             choice = Integer.parseInt(keyboard.nextLine());
-
-            //the switch statements control the choice made by he user
+            
+            //the switch statements control the choice made by he 
             switch (choice) {
                 case 1: {
                     System.out.println("Students: ");
